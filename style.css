@@ -1,0 +1,36 @@
+.delay-015 {
+    animation-delay: 0.15s;
+}
+.delay-03 {
+    animation-delay: 0.3;
+}
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.line {
+    position: fixed;
+    right: 0;
+    background-color: #fff;
+    width: 0;
+    height: 50px;
+    top: -10vw;
+    height: 120vh;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.25), 0 0 28px 0 rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 50px 14px rgba(0,0,0,0.25);
+    box-shadow: 0 10px 50px rgba(0,0,0,0.19), 0 6px 50px rgba(0,0,0,0.23);  
+}
+.line-1 {
+    animation: loading 3s cubic-bezier(0.77, 0, 0.175, 1) 0s infinite normal none;
+}
+.line-2 {
+    animation: loading 3s cubic-bezier(0.77, 0, 0.175, 1) .15s infinite normal none;
+}
+.line-3 {
+    animation: loading 3s cubic-bezier(0.77, 0, 0.175, 1) .3s infinite normal none;
+}
+body {
+    margin: 0;
+    background-color: aqua;
+}
